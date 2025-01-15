@@ -1,20 +1,31 @@
-Conclusion
-Q1. What is the most frequent genre in dataset?
+# Movie Data Analysis on Netflix
 
-Drama genre is the most frequent genre in our dataset and has appeared more than 14% of times among 19 other genres
+This project, **Movie Data Analysis on Netflix**, is developed by **AkhilllYadav**. The analysis focuses on exploring Netflix's movie data to uncover trends and insights related to genres, ratings, and release patterns.
 
-Q2. What genres has highest votes?
+## Project Overview
 
-We have 25.5% of our dataset with popular vote (6520 rows). Drama again gets the highest popularity among fans by being having more than 18.5% movies.
+The primary objective of this project is to perform an exploratory data analysis (EDA) on Netflix's movie dataset. The analysis seeks to answer key questions such as:
 
-Q3. What movie got the highest popularity? what's its genre?
+- What are the most popular genres on Netflix?
+- How does movie duration vary by genre?
+- What are the patterns in movie ratings?
+- How has the release of content changed over the years?
 
-Spider-Man: No way home has the highest popularity rate in our dataset and it has genresof Action, Adventureand Science Fiction.
+## Features
 
-Q4. What movie got the lowest popularity? what's its genre?
+- **Data Cleaning**: Managing missing values and ensuring data consistency.
+- **Data Visualization**: Creating informative visualizations using Matplotlib and Seaborn.
+- **Insights**: Extracting meaningful conclusions from the data.
 
-The United States, thread has the highest lowest rate in our dataset and it has genres of music, drama, war, sci-fi and history.
+## Requirements
 
-Q4. Which year has the most filmmed movies?
+The project is executed in **Google Colab** using Python and the following libraries:
 
-Year 2020 has the highest filmming rate in our dataset.
+- Pandas
+- Matplotlib
+- Seaborn
+
+You can use the following command to install any missing libraries directly in the Colab notebook:
+
+```python
+!pip install pandas matplotlib seaborn
